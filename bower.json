@@ -1,0 +1,18 @@
+{
+  "name": "upbase",
+  "version": "1.0.0",
+  "description": "Bespoke Sass mixin library from Upstatement",
+  "main": "scss/_upbase.scss",
+  "license": "MIT",
+  "ignore": [
+    "**/*.",
+    "README.md",
+    "sassdoc"
+  ],
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "mixins"
+  ]
+}
