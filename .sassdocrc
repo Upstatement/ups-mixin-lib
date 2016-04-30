@@ -1,4 +1,4 @@
 {
-  "dest": "docs/latest",
+  "dest": "docs",
   "theme": "upbase"
 }
