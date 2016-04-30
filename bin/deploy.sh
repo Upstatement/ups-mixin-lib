@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo $(pwd)
 cmd=$(npm run release-docs 2>&1 | tail -1)
 
 if [ $? -ne 0 ]; then
