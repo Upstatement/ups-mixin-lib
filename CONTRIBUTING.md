@@ -14,6 +14,6 @@ To generate the documentation locally:
 
 ```bash
 npm install
-npm run update-docs
+npm run build-docs
 open docs/index.html
 ```
