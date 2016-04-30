@@ -1,10 +1,12 @@
 #!/bin/bash
 
-echo $(pwd)
-cmd=$(npm run release-docs 2>&1 | tail -1)
+echo "Why no worky?"
+env
 
-if [ $? -ne 0 ]; then
-  exit 1
-fi
+# cmd=$(npm run release-docs 2>&1 | tail -1)
 
-eval $cmd
+# if [ $? -ne 0 ]; then
+#   exit 1
+# fi
+
+# eval $cmd
