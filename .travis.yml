@@ -7,5 +7,5 @@ deploy:
     branch: add-sassdocs
 env:
   global:
-    - GIT_COMMITTER_NAME=Mike Burns
-    - GIT_COMMITTER_EMAIL=mike.burns@upstatement.com
+    - GIT_AUTHOR_NAME="Mike Burns"
+    - GIT_AUTHOR_EMAIL=mike.burns@upstatement.com
