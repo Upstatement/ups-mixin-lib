@@ -1,10 +1,14 @@
 #!/bin/bash
 
-cmd=$(npm run-script release-docs 2>&1 | tail -1)
+echo `which npm`
+echo `npm run`
+echo `npm run release-docs`
 
-if [ $? -ne 0 ]; then
-  echo "$cmd"
-  exit 1
-fi
+# cmd=$(npm run release-docs 2>&1 | tail -1)
 
-eval $cmd
+# if [ $? -ne 0 ]; then
+#   echo "$cmd"
+#   exit 1
+# fi
+
+# eval $cmd
