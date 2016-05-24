@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo `which npm`
-echo `npm run`
-echo `npm run release-docs`
+git config user.name "$GIT_USER_NAME"
+git config user.email "$GIT_USER_EMAIL"
+
+npm run release-docs
 
 # cmd=$(npm run release-docs 2>&1 | tail -1)
 
