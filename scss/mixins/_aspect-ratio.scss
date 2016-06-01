@@ -27,7 +27,7 @@
 ///
 
 
-@mixin aspect-ratio($aspect-ratio: 16/9, $target:"> *") {
+@mixin aspect-ratio($aspect: 16/9, $target:"> *") {
   $aspect-percentage: percentage(1 / ($aspect));
   height: 0;
   position: relative;
