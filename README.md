@@ -1,6 +1,7 @@
 # Upstatement Mixin Library (Upbase!)
 
 The next version of [Upbase](https://github.com/Upstatement/upbase).
+[ups-mixin-lib documentation](http://upbase.upstatement.com/)
 
 ## Quick Start
 
