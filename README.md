@@ -1,7 +1,8 @@
 # Upstatement Mixin Library (Upbase!)
 
-The next version of [Upbase](https://github.com/Upstatement/upbase).
-[ups-mixin-lib documentation](http://upbase.upstatement.com/)
+Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.com/)
+
+[Legacy Upbase Project](https://github.com/Upstatement/upbase).
 
 ## Quick Start
 
