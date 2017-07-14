@@ -28,7 +28,7 @@ Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.
     add_import_path "bower_components/upbase/scss"
 
     # If you installed using NPM or Yarn:
-    add_import_path "node_modules/upbase/scss"
+    add_import_path "node_modules/ups-mixin-lib/scss"
     ```
 
     If you're using [Gulp Sass](https://www.npmjs.com/package/gulp-sass):
@@ -44,7 +44,7 @@ Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.
           includePaths: ['bower_components'],
 
           // If you installed using NPM or Yarn:
-          includePaths: [require('upbase').includePaths],
+          includePaths: [require('ups-mixin-lib').includePaths],
         }))
         .pipe(gulp.dest('./css'));
     });
