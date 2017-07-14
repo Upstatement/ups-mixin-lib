@@ -40,17 +40,19 @@ Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.
     gulp.task('sass', () => {
       return gulp.src('./scss/**')
         .pipe(sass({
+
           // If you installed using Bower:
-          includePaths: ['bower_components'],
+          includePaths: ['bower_components/upbase/scss'],
 
           // If you installed using NPM or Yarn:
           includePaths: [require('ups-mixin-lib').includePaths],
+
         }))
         .pipe(gulp.dest('./css'));
     });
     ```
 
-3. Import all Upbase helpers in your Sass file before use:
+3. Import all Upbase helpers into your Sass file before use:
 
   ```scss
     @import "upbase";
