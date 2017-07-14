@@ -1,5 +1,5 @@
 {
-  "name": "upbase",
+  "name": "ups-mixin-lib",
   "version": "0.1.0",
   "description": "Bespoke Sass mixin library from Upstatement",
   "main": "index.js",
