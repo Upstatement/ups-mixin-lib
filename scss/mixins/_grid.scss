@@ -171,7 +171,7 @@
         }
       }
     }
-  } @elseif $list-length == 1 {
+  } @else if $list-length == 1 {
     //If length of list is 1, use evenly-sized items
     $items-per-row: $items;
     $item-size: 100% / $items;
