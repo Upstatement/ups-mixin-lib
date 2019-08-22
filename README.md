@@ -2,9 +2,7 @@
 
 > Our sass mixin library. [upbase documentation](http://upbase.upstatement.com/)
 
-[Legacy Upbase Project](https://github.com/Upstatement/upbase).
-
-## Quick Start
+## Usage
 
 1. Add Upbase to your project using [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/en/).
 
@@ -38,3 +36,15 @@
   ```scss
     @import "upbase";
   ```
+
+## Contributing
+
+We welcome all contributions to our projects! Filing bugs, feature requests, code changes, docs changes, or anything else you'd like to contribute are all more than welcome! More information about contributing can be found in the [contributing guidelines](.github/CONTRIBUTING.md).
+
+## Code of Conduct
+
+Upstatement strives to provide a welcoming, inclusive environment for all users. To hold ourselves accountable to that mission, we have a strictly-enforced [code of conduct](CODE_OF_CONDUCT.md).
+
+## About Upstatement
+
+[Upstatement](https://www.upstatement.com/) is a digital transformation studio headquartered in Boston, MA that imagines and builds exceptional digital experiences. Make sure to check out our [services](https://www.upstatement.com/services/), [work](https://www.upstatement.com/work/), and [open positions](https://www.upstatement.com/jobs/)!
