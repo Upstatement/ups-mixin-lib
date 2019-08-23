@@ -1,6 +1,6 @@
 # Upbase
 
-[![Version](https://img.shields.io/npm/v/@upstatement/upbase)](https://npmjs.com/package/@upstatement/upbase)]
+[![Version](https://img.shields.io/npm/v/@upstatement/upbase)](https://npmjs.com/package/@upstatement/upbase)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](http://upbase.upstatement.com)
 
 > A bespoke Sass mixin library from Upstatement
