@@ -1,35 +1,23 @@
-# Upstatement Mixin Library (Upbase!)
+# Upbase
 
-Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.com/)
+[![Version](https://img.shields.io/npm/v/@upstatement/upbase)](https://npmjs.com/package/@upstatement/upbase)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](http://upbase.upstatement.com)
 
-[Legacy Upbase Project](https://github.com/Upstatement/upbase).
+> A bespoke Sass mixin library from Upstatement
 
-## Quick Start
+## Setup
 
-1. Add Upbase to your project using [Bower](http://bower.io/), [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/en/).
+1. Add Upbase to your project using [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/en/).
 
   ```shell
-  # Bower
-  bower install --save https://github.com/Upstatement/ups-mixin-lib
-
   # NPM
-  npm install --save https://github.com/Upstatement/ups-mixin-lib
+  npm install @upstatement/upbase
 
   # Yarn
-  yarn add https://github.com/Upstatement/ups-mixin-lib
+  yarn add @upstatement/upbase
   ```
 
-2. Ensure the Upbase `scss` directory is on your [Sass load path](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#load_paths-option).
-
-    If you're using the Ruby Sass CLI, add the following to your `config.rb`:
-
-    ```shell
-    # If you installed using Bower:
-    add_import_path "bower_components/upbase/scss"
-
-    # If you installed using NPM or Yarn:
-    add_import_path "node_modules/ups-mixin-lib/scss"
-    ```
+2. Ensure the Upbase `scss` directory is on your [Sass load path](https://sass-lang.com/documentation/at-rules/import#load-paths).
 
     If you're using [Gulp Sass](https://www.npmjs.com/package/gulp-sass):
 
@@ -40,13 +28,7 @@ Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.
     gulp.task('sass', () => {
       return gulp.src('./scss/**')
         .pipe(sass({
-
-          // If you installed using Bower:
-          includePaths: ['bower_components/upbase/scss'],
-
-          // If you installed using NPM or Yarn:
-          includePaths: [require('ups-mixin-lib').includePaths],
-
+          includePaths: [require('@upstatement/upbase').includePaths],
         }))
         .pipe(gulp.dest('./css'));
     });
@@ -57,3 +39,19 @@ Our sass mixin library. [ups-mixin-lib documentation](http://upbase.upstatement.
   ```scss
     @import "upbase";
   ```
+
+## Documentation
+
+All mixins are documented using [SassDoc](http://sassdoc.com/). Visit the hosted docs at http://upbase.upstatement.com/.
+
+## Contributing
+
+We welcome all contributions to our projects! Filing bugs, feature requests, code changes, docs changes, or anything else you'd like to contribute are all more than welcome! More information about contributing can be found in the [contributing guidelines](.github/CONTRIBUTING.md).
+
+## Code of Conduct
+
+Upstatement strives to provide a welcoming, inclusive environment for all users. To hold ourselves accountable to that mission, we have a strictly-enforced [code of conduct](CODE_OF_CONDUCT.md).
+
+## About Upstatement
+
+[Upstatement](https://www.upstatement.com/) is a digital transformation studio headquartered in Boston, MA that imagines and builds exceptional digital experiences. Make sure to check out our [services](https://www.upstatement.com/services/), [work](https://www.upstatement.com/work/), and [open positions](https://www.upstatement.com/jobs/)!
