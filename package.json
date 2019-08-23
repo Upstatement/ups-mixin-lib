@@ -1,7 +1,7 @@
 {
   "name": "@upstatement/upbase",
   "version": "1.0.0",
-  "description": "Bespoke Sass mixin library from Upstatement",
+  "description": "A bespoke Sass mixin library from Upstatement",
   "main": "index.js",
   "directories": {
     "test": "test"

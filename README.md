@@ -1,8 +1,8 @@
-# Upstatement Mixin Library (Upbase!)
+# Upbase
 
-> Our sass mixin library. [upbase documentation](http://upbase.upstatement.com/)
+> A bespoke Sass mixin library from Upstatement
 
-## Usage
+## Setup
 
 1. Add Upbase to your project using [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/en/).
 
@@ -36,6 +36,11 @@
   ```scss
     @import "upbase";
   ```
+
+## Documentation
+
+All mixins are documented using [SassDoc](http://sassdoc.com/):
+http://upbase.upstatement.com/
 
 ## Contributing
 
