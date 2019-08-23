@@ -42,8 +42,7 @@
 
 ## Documentation
 
-All mixins are documented using [SassDoc](http://sassdoc.com/):
-http://upbase.upstatement.com/
+All mixins are documented using [SassDoc](http://sassdoc.com/). Visit the hosted docs at http://upbase.upstatement.com/.
 
 ## Contributing
 
